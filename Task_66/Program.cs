@@ -15,7 +15,7 @@ int number = SumOfDigitsBetweenNumbers(m, n);
 
 Console.Write(number);
 
-int SumOfDigitsBetweenNumbers(int number1, int number2, int i = 0)
+int SumOfDigitsBetweenNumbers(int number1, int number2)
 {
     int digit = 0;
     if (number1 <= number2)
