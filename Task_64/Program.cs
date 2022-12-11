@@ -14,7 +14,6 @@ AllNaturalNumbers(n);
 
 void AllNaturalNumbers(int number)
 {
-    int[] array = new int[number];
     if (number > 0)
     {
         Console.Write($"{number--} ");
